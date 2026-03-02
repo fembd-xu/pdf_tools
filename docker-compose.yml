@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pdf-tools:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: pdf-tools
+    restart: always
